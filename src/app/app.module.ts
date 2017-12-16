@@ -7,6 +7,7 @@ import { VotePageComponent } from './vote-page/vote-page.component';
 import { NavigationMenuComponent } from './shared/navigation-menu/navigation-menu.component';
 import { MoreVotedComponent } from './more-voted/more-voted.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LeastVotedComponent } from './least-voted/least-voted.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     VotePageComponent,
     NavigationMenuComponent,
-    MoreVotedComponent
+    MoreVotedComponent,
+    LeastVotedComponent
   ],
   imports: [
     BrowserModule,

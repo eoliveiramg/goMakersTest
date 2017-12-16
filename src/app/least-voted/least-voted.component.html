@@ -1,0 +1,13 @@
+<div class="meal-container container">
+  <div *ngFor="let meal of mealsList">
+    <div class="theme-table-image col-sm-4">
+      <img [src]="meal.imageUri" class="img-rounded" [alt]="meal-name">
+      <div class="meal-name">
+        {{meal.name}}
+      </div>
+      <div class="votes">
+        <div class="text">{{meal.votes}}</div>
+      </div>
+    </div>
+  </div>
+</div>
