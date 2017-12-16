@@ -9,10 +9,16 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background: $terracotta; /* Old browsers */
-  background: -moz-linear-gradient(45deg,  $terracotta 0%, $roman 100%) no-repeat; /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg,  $terracotta 0%, $roman 100%) no-repeat; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg,  $terracotta 0%, $roman 100%) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(45deg,  $terracotta 0%, $roman 80%) no-repeat; /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  $terracotta 0%, $roman 80%) no-repeat; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  $terracotta 0%, $roman 80%) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e28e53', endColorstr='#dc5354',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+}
+
+.img-rounded {
+  background-color: $cod-gray;
+  border: solid 10px $white;
+  width: 644px;
 }

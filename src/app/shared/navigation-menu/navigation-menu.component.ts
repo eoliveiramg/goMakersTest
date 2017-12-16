@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-navigation-menu',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation-menu.component.scss']
 })
 export class NavigationMenuComponent implements OnInit {
+  @Output() navigationClick = new EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  private onClick(value) {
+    this.navigationClick.emit(value);
+  }
 }
