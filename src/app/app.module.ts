@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { VotePageComponent } from './vote-page/vote-page.component';
+import { NavigationMenuComponent } from './shared/navigation-menu/navigation-menu.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VotePageComponent,
+    NavigationMenuComponent
   ],
   imports: [
     BrowserModule

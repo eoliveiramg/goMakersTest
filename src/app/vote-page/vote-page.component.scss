@@ -1,0 +1,45 @@
+@import 'src/colors';
+
+header {
+  margin: 63px 0 100px 0;
+}
+
+h1 {
+  font-size: 32.2px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: $white;
+}
+
+.img-rounded {
+  background-color: $cod-gray;
+  border: solid 10px $white;
+  width: 644px;
+}
+
+.button-group {
+  margin-top: 88px;
+
+  .btn {
+    margin: 0 14px;
+    padding: 28px 48px;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+
+  .btn-like {
+    color: $tundora;
+    border-radius: 15px;
+    background-color: $pastel-green;
+    box-shadow: 0 15px 38px 0 rgba(156, 36, 18, 0.28);
+  }
+
+  .btn-dislike {
+    color: $white;
+    border-radius: 15px;
+    background-color: $totem-pole;
+    box-shadow: 0 15px 38px 0 rgba(156, 36, 18, 0.28);
+  }
+}
