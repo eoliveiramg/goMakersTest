@@ -7,7 +7,8 @@ html {
 
 body {
   height: 100%;
-  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background: $terracotta; /* Old browsers */
   background: -moz-linear-gradient(45deg,  $terracotta 0%, $roman 80%) no-repeat; /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg,  $terracotta 0%, $roman 80%) no-repeat; /* Chrome10-25,Safari5.1-6 */
@@ -21,4 +22,31 @@ body {
   background-color: $cod-gray;
   border: solid 10px $white;
   width: 644px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  html {
+    height: initial;
+  }
+
+  body {
+    height: initial;
+  }
+
+  .img-rounded {
+    border: solid 8px $white;
+    width: 320px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  html {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  html {
+    height: 100%;
+  }
 }

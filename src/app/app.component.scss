@@ -10,3 +10,9 @@ h1 {
   letter-spacing: normal;
   color: $white;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  header {
+    margin: 30px 0;
+  }
+}

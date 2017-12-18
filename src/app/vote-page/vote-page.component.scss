@@ -26,3 +26,26 @@
     box-shadow: 0 15px 38px 0 rgba(156, 36, 18, 0.28);
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .button-group {
+    margin: 40px 0 130px 0;
+
+    .btn {
+      padding: 22px 30px;
+      margin: 0 5px;
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .button-group {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .button-group {
+    margin-top: 50px;
+  }
+}

@@ -23,6 +23,7 @@
     letter-spacing: normal;
     text-align: center;
     color: $white;
+    margin-bottom: 20px;
   }
 
   .votes {
@@ -41,5 +42,39 @@
       text-align: center;
       color: $white;
     }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .meal-container {
+    width: 100%;
+
+    .img-rounded {
+      width: 100%;
+    }
+
+    .votes {
+      top: 40%;
+      left: 50%;
+    }
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .meal-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .meal-container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .meal-container {
+    width: 60%;
   }
 }
